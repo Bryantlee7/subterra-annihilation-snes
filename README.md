@@ -4,8 +4,6 @@ A real Super Nintendo game: a side-scrolling sci-fi action/exploration game in
 which a soldier in powered armor descends from a neon city into an enormous
 ant-colony labyrinth to rescue a captured friend. 10 missions.
 
-- Play it in the browser: https://bryant.redconfetti.com/games/subterra/
-- Build screenshots: https://bryant.redconfetti.com/games/subterra/progress/
 - Download the ROM (`.sfc`) from the
   [latest release](https://github.com/Bryantlee7/subterra-annihilation-snes/releases/latest)
   and run it in any SNES emulator (e.g. Snes9x, bsnes, Mesen)
@@ -42,12 +40,6 @@ python3 build.py                 # -> build/game.sfc (512KB LoROM, FastROM, 2KB 
 python3 build.py --mission 4     # testing: boot straight into mission 4
 ```
 
-Deploy to the website:
-
-```sh
-cp build/game.sfc ~/public_html/games/subterra/subterra-annihilation.sfc
-```
-
 ## Testing
 
 `tools/run_test.py` builds a test ROM with scripted joypad input, runs it in
@@ -61,7 +53,6 @@ python3 tools/run_test.py mytest 8 --mission 2 --script steps.txt --every 30
 python3 tools/audio.py scratch/mytest/run.mov out.wav    # audio track + loudness
 python3 tools/sym.py 8A3F                                # address -> routine
 python3 tools/entpos.py 6                                # objective positions
-python3 tools/publish_shot.py frame.png "caption"        # post to progress page
 ```
 
 ## Layout
