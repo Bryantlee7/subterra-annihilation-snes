@@ -6,6 +6,32 @@ ant-colony labyrinth to rescue a captured friend. 10 missions.
 
 - Play it in the browser: https://bryant.redconfetti.com/games/subterra/
 - Build screenshots: https://bryant.redconfetti.com/games/subterra/progress/
+- Download the ROM (`.sfc`) from the
+  [latest release](https://github.com/Bryantlee7/subterra-annihilation-snes/releases/latest)
+  and run it in any SNES emulator (e.g. Snes9x, bsnes, Mesen)
+
+## Screenshots
+
+<table>
+  <tr>
+    <td><img src="docs/screenshots/title.png" alt="Title screen" width="384"><br>Title screen</td>
+    <td><img src="docs/screenshots/briefing.png" alt="Mission briefing with controls" width="384"><br>Mission briefing and controls</td>
+  </tr>
+  <tr>
+    <td><img src="docs/screenshots/mission01-street-level.png" alt="Mission 1: Street Level" width="384"><br>Mission 1: Street Level</td>
+    <td><img src="docs/screenshots/mission02-the-nest.png" alt="Mission 2: The Nest" width="384"><br>Mission 2: The Nest</td>
+  </tr>
+  <tr>
+    <td><img src="docs/screenshots/mission05-the-sentinel.png" alt="Mission 5: The Sentinel" width="384"><br>Mission 5: The Sentinel</td>
+    <td><img src="docs/screenshots/mission07-prisoners.png" alt="Mission 7: Prisoners" width="384"><br>Mission 7: Prisoners</td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="docs/screenshots/mission10-the-facility.png" alt="Mission 10: The Facility" width="384"><br>Mission 10: The Facility</td>
+  </tr>
+</table>
+
+Controls: **B** jump, **Y** fire, **X** grenade, **A** run, **L/R** change
+weapon, **Up** aim/climb, **Down** crouch, **Select** map, **Start** pause.
 
 ## Building
 
